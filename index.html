@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara Vida Landing Page</title>
+    <script defer src="MainScript.js"></script>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="MainScript.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heavitas&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Orbitron:wght@700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+    @import url('https://fonts.cdnfonts.com/css/akira-expanded');
+</style>
+
+<body>
+    
+    
+    <div class="navbar">
+        <div class="Menu">
+            <div href="#videoclipe">
+                <button class="scroll" data-target=".Videoclipe">
+                    <p>Videoclipe</p>
+                </button>
+            </div>
+                
+            <div href="#equipe">
+                <button class="scroll" data-target=".Equipe">
+                    <p>Equipe</p>
+                </button>
+            </div>
+                
+            <div href="#makingOff">
+                <button class="scroll" data-target=".MakingOff">
+                    <p>Making Of</p>
+                </button>
+            </div>
+                
+            <div href="#diarioDeBordo">
+                <button class="scroll" data-target=".Ddb">
+                    <p>DDB</p>
+                </button>
+            </div>
+
+            <div class="LogoCriarDiv">
+                <button id="LogoCriar">
+                    <img src="Imagens/LogoCriar.png" alt="..." onclick="window.open('//www.instagram.com/institutocriar', '_blank');" />
+                    
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                var target = $(this).data('target');
+                $('html,body').animate({scrollTop:$(target).offset().top}, 500);
+            });
+        });
+    </script>
+
+    <div class="Titulo">
+    
+        <p>Cara Vida</p>
+
+    </div>
+    
+<header>
+        
+    <div class="BioSite">
+           <p> Bem-vindo ao Cara Vida!</p>
+
+        
+        <p>   O Cara Vida, o novo local para explorar, descobrir e compartilhar os momentos mais inspiradores da vida, agora está disponível virtualmente no Instituto Criar. Você está no lugar certo se você gosta de cultura, gosta de novas tendências ou simplesmente gosta das coisas básicas do dia a dia.
+        </p> 
+
+         <p>  Navegando por nossa seleção minuciosa de clips, você encontrará uma história única, um momento mágico ou um suspiro de vida. Estamos aqui para acompanhá-lo em cada clique, em cada experiência, do riso à reflexão, da emoção à contemplação.
+        </p> 
+
+        
+        <p>    Acreditamos no poder das imagens para conectar corações, inspirar mentes e mudar vidas aqui no Cara Vida. Junte-se a nós nessa experiência emocionante e deixe-se levar pela magia dos momentos que fazem a vida valer a pena.
+        </p>    
+
+
+        <p>Espero que goste!</p>
+    </div>
+
+<!--</header>
+
+    <div class="Menu">
+
+        <div href="#videoclipe">
+            <button class="scroll" data-target=".Videoclipe">
+                <p>Videoclipe</p>
+            </button>
+        </div>
+            
+        <div href="#equipe">
+            <button class="scroll" data-target=".Equipe">
+                <p>Equipe</p>
+            </button>
+        </div>
+            
+        <div href="#makingOff">
+            <button class="scroll" data-target=".MakingOff">
+                <p>Making Of</sp>
+            </button>
+        </div>
+            
+        <div href="#diarioDeBordo">
+            <button class="scroll" data-target=".Ddb">
+                <p>DDB</p>
+            </button>
+        </div>
+         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            
+            $(document).ready(function(){
+                $(".scroll").click(function(event){
+                    event.preventDefault();
+                    var target = $(this).data('target');
+                    $('html,body').animate({scrollTop:$(target).offset().top}, 500);
+                });
+            });
+
+        </script>
+    
+    </div> -->
+
+
+    
+
+<div class="Videoclipe">
+
+    
+        <h2>Videoclipe</h2>
+        
+        <iframe width="926" height="496" src="https://www.youtube.com/embed/F1x9pSoht90?si=2XXTmYSg-B4rzGBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+        <div class="AccordionLetra">
+        
+            <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Letra</button>
+                
+            <div id="Demo1" class="w3-container w3-hide">
+                <p>Tenho que agradecer pelo o que eu tenho passado
+                    <br>
+                    São vários corres, eu tô de saída, senão é as nota não liga
+                    <br>
+                    Cortando a avenida, toma outro gole que eu já tô decidida
+                    <br>
+                    Vida...
+                    <br>
+                    Agora quer me encontrar e saber pra onde eu..
+                    <br>
+                    Conquistar o mundo, eu vou
+                    <br>
+                    Num voo distante daqui nem sei aonde eu vim parar
+                    <br>
+                    Se eu caísse e não aprendesse, eu sei que ele podia mudar
+                    <br>
+                    Uma vida, não podia voltar várias vezes
+                    <br>
+                    Mas a escolha era minha
+                    <br>
+                    Realidade e o erro caminha ao lado, então deixo o passado
+                    <br>
+                    Enxergo na frente eu vou alcançar
+                    <br>
+                    Um sonho perdido na mente com aquele do bom eu vou realizar
+                    Aquele acordo novo
+                    <br>
+                    Mesmo que não seja mais como antes
+                    <br>
+                    Tá tudo guardado me lembro de novo memórias distantes
+                    <br>
+                    Some some, tô nem vendo, quanto o tempo tá valendo?
+                    <br>
+                    Nas ruas de Gr fazendo meu nome
+                    <br>
+                    </p>
+        
+                <p> 
+                    Tenho que agradecer pelo o que eu tenho passado
+                    <br>
+                    São vários corres, eu tô de saída, senão é as nota não liga
+                    <br>
+                    Cortando a avenida, toma outro gole que eu já tô decidida
+                    <br>
+                    Em busca de uma melhoria
+                    <br>
+                    Final de ano vai ter ruinha
+                    <br>
+                    Agora quer me encontrar e saber pra onde eu...
+                    <br>
+                    Conquistar o mundo, eu vou
+                    <br>
+                    Num voo distante daqui nem sei aonde eu vim parar
+                    <br>
+                    Se eu caísse e não aprendesse, eu sei que ele podia mudar
+                    <br>
+                    Uma vida, não podia voltar várias vezes
+                    <br>
+                    Mas a escolha era minha
+                    <br>
+                    Realidade e o erro caminha ao lado, então deixo o passado
+                    <br>
+                    Te enxergo na frente eu vou alcançar
+                    <br>
+                    Um sonho perdido na mente com aquele do bom eu vou realizar                
+                    <br>
+                    Aquele acordo novo
+                    <br>
+                    Mesmo que não seja mais como antes
+                    <br>
+                    Tá tudo guardado me lembro de novo memórias distantes
+                    <br>
+                    Some some, tô nem vendo, quanto o tempo tá valendo?
+                    <br>
+                    Nas ruas de Gr fazendo meu nome
+                    <br>
+                </p>
+        
+        
+        
+        
+                    <p>Escrita por CorttoPassi</p>
+            </div>
+        
+            <script>
+            function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            } else { 
+            x.className = x.className.replace(" w3-show", "");
+            }
+            }
+            </script>
+            
+        </div>    
+</div>
+
+        
+<div class="CorBackground">
+
+    <div class="WholeEquipe">
+        <div class="Equipe">
+            <h2>Equipe</h2>  
+            
+            
+            
+            <div class="EquipeDireita">
+        
+                <div class="Conteudo">
+            
+                    <p id="EquipeTexto">A produção do clipe "Cara Vida" foi uma experiência inesquecível para toda a equipe. Durante as filmagens, nos divertimos bastante e, ao mesmo tempo, aprendemos muito com cada desafio que surgia. Foi uma jornada cheia de risadas, colaboração e momentos que ficarão para sempre na memória. Trabalhar juntos neste projeto nos fez crescer tanto profissionalmente quanto pessoalmente.
+
+                <p id="EquipeTexto">Confira algumas fotos ao lado para ver um pouco dos bastidores e como a equipe se envolveu com dedicação e alegria em cada etapa do processo.</p>
+                    
+                </div>
+        </div>
+        
+        
+        <div class="EquipeEsquerda">
+            <div class="slider">
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <input type="radio" name="radio-btn" id="radio7">
+                <input type="radio" name="radio-btn" id="radio8">
+            
+                <div class="slides">
+                    <div class="slide">
+                        <img src="Imagens/Equipe/1 e 2.jpg" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="Imagens/Equipe/3 e 4.jpg" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="Imagens/Equipe/5 e 6.jpg" alt="Imagem 3">
+                    </div>
+                    <div class="slide">
+                        <img src="Imagens/Equipe/7 e 8.jpg" alt="Imagem 4">
+                    </div>
+                    <div class="slide">
+                        <img src="Imagens/Equipe/7 e 8.jpg" alt="Imagem 4">
+                    </div>
+                    <div class="slide">
+                        <img src="Imagens/Equipe/7 e 8.jpg" alt="Imagem 4">
+                    </div>
+                    <div class="slide">
+                        <img src="Imagens/Equipe/7 e 8.jpg" alt="Imagem 4">
+                    </div>
+                </div>
+    
+                <button class="prev" onclick="moveSlides(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlides(1)">&#10095;</button>
+    
+            </div>
+        </div>
+    
+    </div> -->
+
+    
+
+    
+    <div class="AccordionNucleos">
+
+            <button class="accordion">Roteiro</button>
+            <div class="panel">
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Roteiro/MariaEduardaSite.jpg" alt="">
+            <p>Me chamo Maria Eduarda, tenho 18 anos, curso Produção no Instituto Criar e sou apaixonada pelo universo do audiovisual. Estou determinada a contribuir com minha criatividade e dedicação para essa indústria. Estou adquirindo conhecimentos teóricos e práticos para realizar meus projetos e sonhos. Entusiasmada com as oportunidades futuras e pronta para enfrentar os desafios do mundo audiovisual.</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Roteiro/MarySite.jpeg" alt="">
+            <p>Marianne Aparecida, Residente de  São paulo, ZN. Roteirista e preparadora de elenco. Trabalhar na produção desse clipe foi uma experiência incrível, obrigada a todos!</p>
+    
+        </div>
+
+
+        <button class="accordion">Produção</button>
+        <div class="panel">
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Produção/Jhasmin Lizi2Site.jpg" alt="">
+            <p>Diretamente do Quilombo Ivaporunduva pro extremo sul de Sp, Jhasmim Lizi atua em muitas áreas da arte e da moda, trabalhando desde pequena como modelo e visando costura e cinema pro seu presente e pro seu futuro. Em 2024 Quilombola, morando na quebrada do Capão Redondo entra no Instituto Criar de Tc, Cinema e outras mídias após já ter uma caminhada humilde no audiovisual, na caminhada também no Núcleo de Moda e projetos pessoais em desenvolvimento constante.</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Produção/MayaSite.jpg" alt="">
+            <p>Maya Menendez, 20 anos, extremo leste de sp, formada em técnica em dança e dança contemporânea. Sempre com interesse na cultura, a produção audiovisual surgiu a princípio na descoberta da produção cultural. No projeto "CARA VIDA", atuou como produção executiva.</p>
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Produção/KatmiraSite.jpeg
+            " alt="">
+            <p>Katmira, 20 anos, autora do Livro "Kat Mira Versos" lançado em 2023 e integrante do Sarau Urutu, Coletivo responsável pelo Documentário "Terreiros da Urutu" (2024).
+                Em 2023 fez escola de criadores - Instituto Kondzilla com o curso de audiovisual, midias e economia criativa, Atualmente estuda Produção Audiovisual no Instituto Criar de TV, Cinema e Novas Mídias. Participou da produção de video clipes como Direção de Produção, Preparação de Elenco e Assistência de Produção.</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Produção/DudaSite.jpg" alt="">
+            <p>"Olá a todos! Eu sou a Duda e tive o privilégio de atuar como chefe de elétrica e maquinaria no videoclipe "cara vida". Além dessa vivência, também contribuí como operadora de câmera no videoclipe "desacreditados" e no videoclipe "Corre" como assistente de gaffer.</p>
+
+            <img src="Imagens/Equipe/Fotos Nucleo/Produção/BeatrizSite.jpg" alt="">
+            <p>Em 2022, Beatriz ingressou no Curso de Ciências Sociais, na Universidade de São Paulo. Participou, no mesmo ano, de alguns projetos estudantis relacionados à àrea de humanidades e também estagiou em uma ONG (Comissão Pró Indígena). A partir dos estudos da faculdade, descobriu uma vontade de trabalhar o que estava aprendendo através de ferramentas do audiovisual. Assim, em 2024, ingressou no Instituto Criar, integrando o núcleo de produção. Motivada a aprender o máximo possível sobre audiovisual, em junho, ingressou no curso énois na fita.</p>
+        
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    
+        </div>
+        
+        <button class="accordion">Fotografia</button>
+        <div class="panel">
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Fotografia/DelfinoSite.jpg" alt="">
+            <p>Gabriel Vulgo BabyLeste, 20 anos residente da zona leste de São Paulo ,
+                tive o primeiro contato com a fotografia aos 11 anos e fui apaixonado desde então.
+                “Me ajuda a ver um mundo melhor”</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Fotografia/LuisTelesSite.jpg" alt="">
+            <p>Luis Teles, 21 anos. Primeiro assistente de câmera e fotógrafo a mais de 1 ano.</p>
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Fotografia/" alt="">
+            <p></p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Fotografia/TauaneSite.jpeg" alt="">
+            <p>Tauane integra o departamento de fotografia e desempenhou o papel de assistente de maquinaria no clipe "Cara Vida". Além disso, ela também contribuiu na mesma função nos clipes "Desacreditados" e "Sem Tempo", consolidando sua experiência na área.</p>
+
+            <img src="Imagens/Equipe/Fotos Nucleo/Fotografia/PedroSite.jpg" alt="">
+            <p>Pedro inacio, sou um fotógrafo negro e periférico, organizador da batalha da juventude e moro na cidade de São Paulo, meus trabalhos consiste em mostrar a realidade do que vivo na minha quebrada e nas ruas de SP</p>
+        
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+    
+        </div>
+    
+        <button class="accordion">Arte</button>
+        <div class="panel">
+    
+            <img src="Imagens/Equipe/Fotos Nucleo/Arte/LarissaSite.jpg" alt="">
+            <p>Meu nome é Larissa Alves, tenho 19 anos, moro no Jardim Sapopemba zona leste de São Paulo e sou maquiadora. Sempre fui apaixonada pelo poder da maquiagem e "cá" estou eu, trabalhando com o que amo e dando sempre o meu melhor.</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Arte/EmilySite.jpeg" alt="">
+            <p>A artista Emily Rabelo nasceu no Grajaú extremo sul de São Paulo, hoje atua como estilista, stylist e produtora de moda.</p>
+        
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+    
+        </div>
+    
+        <button class="accordion">Pós-Produção</button>
+        <div class="panel">
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Pós produção/QueziaSite.jpg" alt="">
+            <p>Quézia Dias, mulher negra e brasileira, residente da cidade de São Paulo, ZL. 
+                Pós produtora e social Media a 2 anos.
+                Faço sonhos em realidade através de marcas e cinema.</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Pós produção/DaviSite.jpg" alt="">
+            <p>
+                Meu nome é Davi José Lekadiano, tenho 19 anos, nascido no Brasil no ano de 2004. Eu cresci junto com os meus irmãos em um país da África chamado "Congo". Eu sempre fui uma pessoa apaixonado pelo áudio visual, e principalmente a Animação, e meu sonho é criar uma animação um dia. no clipe cara vida, eu fui responsável pelo storyboard, moodboard, logagem, animação, motion design e boletim de câmera.</p>
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Pós produção/C7Site.jpeg" alt="">
+            <p>C7nan um artista de 19 anos diretamente de Vargem Grande ,extremo sul de São Paulo,onde sua carreira se iniciou em 2018 nas batalhas e com a música se interessou pelo áudio visual trazendo sua estética nos seus trabalhos.</p>
+            
+    
+        </div>
+        
+        <button class="accordion">Áudio</button>
+        <div class="panel">
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Aúdio/BruneSite.jpg" alt="">
+            <p>Brune tem 20 anos e é uma pessoa não binaria natural de São Paulo - SP.  Brune produz e compõe as suas próprias obras desde os seus 13 anos de idade, e agora no Instituto Criar, estuda diariamente o universo do áudio, um tópico que junta os seus dois maiores interesses: o Cinema e a Música.</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Aúdio/NickySite.jpeg" alt="">
+            <p>Nicole Iannicelli, nascida e criada na zona leste de São Paulo, sempre teve o sonho de trabalhar com arte e audiovisual. Com apenas 13 anos ela já tinha aula de violão e coral, agora com 19 anos ela amplia seus conhecimentos de arte, música e filmes com o criar.</p>
+        
+            <img src="Imagens/Equipe/Fotos Nucleo/Aúdio/DaiaSite.jpg" alt="">
+            <p>Daiana Lima, 18 anos, formada como técnica em comunicação visual pela etec José Rocha Mendes. Atualmente estuda audiovisual com foco em Som no Instituto Criar de Tv, Cinema e Novas Mídias. Contribuiu para os clipes musicais como microfonista e editora de som.</p>
+        
+        </div>
+
+        <button class="accordion">Tecnologia</button>
+        <div class="panel">
+        
+            <img src="Imagens/img_teste.png" alt="">
+            <p>Sou Vitor, tenho 20 anos e tenho experiência com edições, pôsteres e storyboard, adquirida no Instituto Criar no ano passado. Neste ano, entrei novamente no Instituto Criar na turma de tecnologia, onde assumi o papel de criador do design e da estrutura completa do site para o clipe "Cara Vida". Minha jornada tem sido marcada pela paixão por design e desenvolvimento web, sempre buscando aprimorar minhas habilidades e conhecimentos.</p>
+            
+            <img src="Imagens/Equipe/Fotos Nucleo/Tecnologia/NeroSite.jpeg" alt="">
+            <p>Meu nome é Nero, tenho 20 anos e sou da zona norte de SP. Há 5 anos eu faço rap mas também tenho conhecimento sobre design.</p>
+        
+            </div>
+    
+        <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var acc = document.getElementsByClassName("accordion");
+    
+        for (var i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.classList.contains("active")) {
+              panel.classList.remove("active");
+              panel.style.maxHeight = null;
+            } else {
+              panel.classList.add("active");
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+      });
+        </script>
+    
+        </div>
+    </div>
+    
+    <div class="MakingOff">
+        
+            <h2>Making Of</h2>
+            
+                <iframe width="926" height="496" src="https://www.youtube.com/embed/F1x9pSoht90?si=2XXTmYSg-B4rzGBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            
+    </div>
+
+    <div class="Ddb">
+        
+        <h2>Diario de Bordo</h2>
+        
+            <img src="Imagens/Foto Equipe Reserva4.jpg" alt="">
+        
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
